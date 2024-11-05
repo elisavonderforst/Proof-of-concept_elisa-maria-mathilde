@@ -35,3 +35,51 @@
   opacity: 0;
   margin-top: 40px;
 }
+
+.effet-suivant {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background: #67bf98;
+  border: none;
+  padding: 50px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 600;
+}
+
+#container {
+  position: relative;
+  width: 100vw;
+  height: 50vh;
+  overflow: hidden;
+  background-color: #f0f0f0;
+}
+
+#papillon {
+  position: absolute;
+  top: 50%;
+  left: -100px;
+  transform: translateY(-50%);
+  transition: left 2s linear;
+  cursor: pointer;
+}
+
+.bloc-click {
+  position: absolute;
+  padding: 10px 20px;
+  background: white;
+  top: 35%;
+  left: 52%;
+  opacity: 0;
+}
