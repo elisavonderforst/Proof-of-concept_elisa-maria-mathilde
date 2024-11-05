@@ -12,3 +12,36 @@ img,
 video {
   display: block;
 }
+
+.container {
+  max-width: 800px;
+  height: 150vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 50rem;
+}
+
+.item {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#item-a {
+  background: orange;
+  margin-top: 200px;
+}
+
+#item-b {
+  background: lightblue;
+}
+
+#item-c {
+  background: pink;
+}
