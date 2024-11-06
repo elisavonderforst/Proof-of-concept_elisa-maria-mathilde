@@ -83,3 +83,16 @@ a {
   left: 52%;
   opacity: 0;
 }
+
+.scroll-bloc-horizontal {
+  overflow-x: hidden;
+  max-width: 100%;
+  position: relative;
+}
+
+.pin-wrap {
+  display: flex;
+  position: absolute;
+  top: 10%;
+  left: 1000px;
+}

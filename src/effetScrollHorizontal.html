@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="scss/_base.scss" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Scroll horizontal</h1>
+    <p>
+      Cette animation sert à montrer le mouvement du train, utilisation de GASP
+      car nous avons appris ça en classe.
+    </p>
+    <div class="scroll-bloc-horizontal">
+      <div class="white container"></div>
+      <div class="white"></div>
+      <div class="container-scroll">
+        <div class="pin-wrap">
+          <img src="img/1.png" alt="" />
+          <img src="img/2.png" alt="" />
+          <img src="img/3.png" alt="" />
+        </div>
+      </div>
+      <div class="white"></div>
+    </div>
+    <div class="effet-suivant">
+      <button>
+        <a href="./index.html">
+          Appuyez là pour revenir à la 1er animation :)</a
+        >
+      </button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

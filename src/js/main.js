@@ -1,3 +1,5 @@
+//animation scoll et les images apparaissent
+
 gsap.registerPlugin(ScrollTrigger);
 
 const img1 = document.querySelector(".scroll-1");
@@ -85,6 +87,8 @@ gsap.to(img7, {
   opacity: 1,
 });
 
+//animation papillon
+
 const animatedclick = document.querySelector(".bloc-click");
 
 var tl = gsap.timeline();
@@ -97,3 +101,18 @@ tl.to(animatedclick, { opacity: 1 });
 tl.to(animatedclick, { opacity: 0, delay: 3 });
 tl.to("#papillon", { x: 800, y: -100, delay: 1 });
 tl.to("#papillon", { x: 900, y: -200 });
+
+// scroll horizontall
+
+const scrollHorizontal = document.querySelector(".pin-wrap");
+
+gsap.to(scrollHorizontal, {
+  scrollTrigger: {
+    trigger: scrollHorizontal,
+    markers: true,
+    start: "center center",
+    scrub: true,
+    pin: true,
+  },
+  x: -4400,
+});
