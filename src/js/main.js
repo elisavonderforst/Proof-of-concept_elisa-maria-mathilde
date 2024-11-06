@@ -97,8 +97,14 @@ tl.to("#papillon", { x: 200, y: -20 });
 tl.to("#papillon", { x: 300, y: -80 });
 tl.to("#papillon", { x: 400, y: -60 });
 tl.to("#papillon", { x: 500, y: 0 });
-tl.to(animatedclick, { opacity: 1 });
-tl.to(animatedclick, { opacity: 0, delay: 3 });
+tl.to("#papillon", { scale: 1.5 });
+tl.to("#papillon", { scale: 1 });
+tl.to("#papillon", { scale: 1.5 });
+tl.to("#papillon", { scale: 1 });
+tl.to("#papillon", { scale: 1.5 });
+tl.to("#papillon", { scale: 1 });
+tl.to("#papillon", { scale: 1.5 });
+tl.to("#papillon", { scale: 1 });
 tl.to("#papillon", { x: 800, y: -100, delay: 1 });
 tl.to("#papillon", { x: 900, y: -200 });
 
